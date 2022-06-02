@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 19,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1654079867096,
@@ -84,6 +84,42 @@
                 {
                     "date": 1654128763802,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n </head>\r\n+\r\n <body>\r\n   <header>\r\n     <h1>Balony na tony</h1>\r\n   </header>\r\n"
+                },
+                {
+                    "date": 1654129563427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n \r\n <body>\r\n   <header>\r\n     <h1>Balony na tony</h1>\r\n+    \r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654129569189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n \r\n <body>\r\n   <header>\r\n     <h1>Balony na tony</h1>\r\n-    \r\n+    <h1>bee</h1>\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654129579663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n \r\n <body>\r\n   <header>\r\n     <h1>Balony na tony</h1>\r\n-    <h1>bee</h1>\r\n+    \r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654130540311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n </head>\r\n \r\n <body>\r\n   <header>\r\n+    \r\n     <h1>Balony na tony</h1>\r\n     \r\n   </header>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1654130791542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n-  <script src=\"/js/main.js\"></script>\r\n+  <script src=\"js/main.js\"></script>\r\n   <style>\r\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n@@ -13,8 +13,9 @@\n \r\n <body>\r\n   <header>\r\n     \r\n+\r\n     <h1>Balony na tony</h1>\r\n     \r\n   </header>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1654130809497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n-  <script src=\"js/main.js\"></script>\r\n+  <script src=\"js/main.js\" ></script>\r\n   <style>\r\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n"
+                },
+                {
+                    "date": 1654130815924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n-  <script src=\"js/main.js\" ></script>\r\n+  <script src=\"js/main.js\" defer></script>\r\n   <style>\r\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n"
+                },
+                {
+                    "date": 1654131034936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n-  <script src=\"js/main.js\" defer></script>\r\n+  <script src=\"js/main.js\" ></script>\r\n   <style>\r\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n"
+                },
+                {
+                    "date": 1654131041810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n-  <script src=\"js/main.js\" ></script>\r\n+  <script defer src=\"js/main.js\" ></script>\r\n   <style>\r\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n"
                 }
             ],
             "date": 1654079867096,
