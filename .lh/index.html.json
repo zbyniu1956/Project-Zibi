@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1654079867096,
@@ -32,6 +32,58 @@
                 {
                     "date": 1654080018366,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"css/style.css\">\r\n-  <script src=\"m\"></script>\r\n+  <script src=\"/js/\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   \r\n"
+                },
+                {
+                    "date": 1654081404941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"css/style.css\">\r\n-  <script src=\"/js/\"></script>\r\n+  <script src=\"/js/main.js\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n-  \r\n+  header\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081410217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n   <script src=\"/js/main.js\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n-  header\r\n+  <header></header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081447067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,9 @@\n   <script src=\"/js/main.js\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n-  <header></header>\r\n+  <header>\r\n+    <h1></h1>\r\n+  </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081453065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n-    <h1></h1>\r\n+    <h1>Balony</h1>\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081712499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"en\">\r\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"css/style.css\">\r\n+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"style.css\">\r\n   <script src=\"/js/main.js\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n"
+                },
+                {
+                    "date": 1654081875047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,14 +2,15 @@\n <html lang=\"en\">\r\n <head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"style.css\">\r\n+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n   <script src=\"/js/main.js\"></script>\r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n     <h1>Balony</h1>\r\n+    \r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081891538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n </head>\r\n <body>\r\n   <header>\r\n     <h1>Balony</h1>\r\n-    \r\n+    h\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654081900089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,8 @@\n </head>\r\n <body>\r\n   <header>\r\n     <h1>Balony</h1>\r\n-    h\r\n+    <h2>baloon</h2>\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654082024725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n-    <h1>Balony</h1>\r\n-    <h2>baloon</h2>\r\n+    \r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654082035806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n-    \r\n+    <h1></h1>\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654082081308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,8 @@\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n-    <h1></h1>\r\n+    <h1>Balony na tony</h1>\r\n   </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1654082434018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,11 @@\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" href=\"/css/style.css\">\r\n   <script src=\"/js/main.js\"></script>\r\n+  <style>\r\n+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n+</style> \r\n   <title>Document</title>\r\n </head>\r\n <body>\r\n   <header>\r\n"
+                },
+                {
+                    "date": 1654128763802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');\r\n </style> \r\n   <title>Document</title>\r\n </head>\r\n+\r\n <body>\r\n   <header>\r\n     <h1>Balony na tony</h1>\r\n   </header>\r\n"
                 }
             ],
             "date": 1654079867096,

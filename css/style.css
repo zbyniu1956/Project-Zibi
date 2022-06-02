@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(/img/ballon.jpg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+ h1 {
+  position: absolute;
+  font-size: 5rem;
+  color: #fff;
+  right: 20%;
+  top: 20%;
+  font-family: 'Roboto', sans-serif;
+}
